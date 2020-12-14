@@ -12,7 +12,6 @@ vector < int > prefix_function(string s) {
   return pi;
 }
 
-// Prints occurrences of txt[] in pat[]
 void KMPSearch(string pat, string txt) {
   int M = pat.size();
   int N = txt.size();
@@ -26,10 +25,7 @@ void KMPSearch(string pat, string txt) {
       cout << "Found pattern at index " << i - j << "\n";
       j = lps[j - 1];
     }
-    // mismatch after j matches
     else if (i < N && pat[j] != txt[i]) {
-      // Do not match lps[0...lps[j-1]] charactes,
-      // they will match anyway
       if (j != 0) {
         j = lps[j - 1];
       } else {

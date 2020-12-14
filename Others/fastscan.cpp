@@ -1,7 +1,6 @@
 #pragma GCC target("avx2")
 #pragma GCC optimization("O3")
 #pragma GCC optimization("unroll-loops")
-
 template < typename T > void in (T & x) {
   x = 0;
   register T c = getchar();
@@ -12,7 +11,6 @@ template < typename T > void in (T & x) {
   for (; c > 47 && c < 58; c = getchar()) x = (x << 3) + (x << 1) + (c & 15);
   if (neg) x = -x;
 }
-
 template < typename T > void out(T n, char CC) {
   if (n < 0) {
     putchar('-');
