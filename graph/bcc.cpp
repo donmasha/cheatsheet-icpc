@@ -9,9 +9,9 @@ bool artic[N];
 int nblock;
 int childroot;
 int par[N];
-int udh[N];
+int udh[2 * N];
 
-vector< int> bct[N];
+vector<int> bct[2 * N];
 
 void dfs_bcc(int v, int bef = -1) {
   num[v] = low[v] = counter++;
