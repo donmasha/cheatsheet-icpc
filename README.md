@@ -1,5 +1,5 @@
-# cheatsheet-inf
-Cheatsheet Team **ItbNoFukkatsu** for *Competitive Programming Competitions*.
+# cheatsheet-rp
+Cheatsheet Team **Ryungan Pangsaena** for *Competitive Programming Competitions*.
 
 ## Contribution Guide:
 1. Put your code onto the right folder tag (example: DFS to Graph).
@@ -12,4 +12,4 @@ Cheatsheet Team **ItbNoFukkatsu** for *Competitive Programming Competitions*.
 - Farras Mohammad Hibban Faddila ([donbasta](https://codeforces.com/profile/donbasta))
 - Muhammad Kamal Shafi ([Mastre](https://codeforces.com/profile/Mastre))
 
-Check out our team at CodeForces [ItbNoFukkatsu](https://codeforces.com/team/64655)
+Check out our team at CodeForces [Ryungan Pangsaena](https://codeforces.com/team/64655)
